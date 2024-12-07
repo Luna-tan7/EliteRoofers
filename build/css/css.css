@@ -1,0 +1,23 @@
+
+.boton-cotizacion {
+    display: inline-block; /* Para que el botón tenga solo el tamaño necesario */
+    padding: 1rem 2rem; /* Ajusta el tamaño del botón (vertical y horizontal) */
+    background-color: #ffcc00; /* Color amarillo */
+    color: #000; /* Texto en negro */
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 1.2rem; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    text-align: center; /* Centra el texto dentro del botón */
+    margin: 0 auto; /* Centra el botón dentro del contenedor */
+    transition: background-color 0.3s ease; /* Efecto al pasar el mouse */
+}
+
+.boton-cotizacion:hover {
+    background-color: #e6b800; /* Cambia ligeramente el color al pasar el mouse */
+}
+
+.contenedor-boton {
+    text-align: center; /* Centra el botón horizontalmente */
+    padding: 2rem 0; /* Espaciado alrededor del botón */
+}
